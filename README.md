@@ -29,17 +29,17 @@ bash
 
 DB_HOST=localhost  
 DB_PORT=5432  
-DB_NAME=railway_management
-DB_USER=your_db_user
-DB_PASSWORD=#######(write your own password)
+DB_NAME=railway_management  
+DB_USER=your_db_user  
+DB_PASSWORD=#######(write your own password)  
 
-4. Set up the PostgreSQL database
+4. Set up the PostgreSQL database  
 Make sure PostgreSQL is installed and running.
 
 Create the database manually:
-psql -U postgres
-CREATE DATABASE railway_management;
-\q
-Then run the SQL schema:
-psql -U postgres -d railway_management -f database/schema.sql
+psql -U postgres  
+CREATE DATABASE railway_management;  
+\q  
+Then run the SQL schema:  
+psql -U postgres -d railway_management -f database/schema.sql  
 
