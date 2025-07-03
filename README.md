@@ -24,8 +24,8 @@ bash
    npm install
 3. Configure environment variables  
    Create a .env file in the root directory:  
-   PORT=3001
-   -NODE_ENV=development
+   PORT=3001  
+   NODE_ENV=development
 
 DB_HOST=localhost
 DB_PORT=5432
