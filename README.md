@@ -27,11 +27,11 @@ bash
    PORT=3001  
    NODE_ENV=development
 
-DB_HOST=localhost  
-DB_PORT=5432  
-DB_NAME=railway_management  
-DB_USER=your_db_user  
-DB_PASSWORD=#######(write your own password)  
+  DB_HOST=localhost  
+  DB_PORT=5432  
+  DB_NAME=railway_management  
+  DB_USER=your_db_user  
+  DB_PASSWORD=#######(write your own password)  
 
 4. Set up the PostgreSQL database  
 Make sure PostgreSQL is installed and running.
