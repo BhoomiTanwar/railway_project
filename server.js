@@ -6,14 +6,16 @@ require('dotenv').config();
 
 // Import routes
 const authRoutes = require('./routes/auth');
+
 const trainRoutes = require('./routes/trains');
 const bookingRoutes = require('./routes/bookings');
+
 
 // Import database connection
 const pool = require('./config/database');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Security middleware
 app.use(helmet());

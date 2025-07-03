@@ -3,6 +3,10 @@ const router = express.Router();
 const { registerUser, loginUser } = require('../controllers/authController');
 const { validateUserRegistration, validateUserLogin } = require('../middleware/validation');
 
+router.get('/ping', (req, res) => {
+  res.json({ message: 'pong' });
+});
+
 console.log("✅ authRoutes loaded");
 
 router.get('/test', (req, res) => {
