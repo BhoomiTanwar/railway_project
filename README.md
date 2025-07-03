@@ -20,12 +20,12 @@ A secure, RESTful Railway Reservation System built using Node.js, Express, and P
 bash
 ->git clone https://github.com/your-username/railway-management-api.git
 ->cd railway-management-api
-2. Install dependencies //
-   npm install
+2. Install dependencies 
+   -npm install
 3. Configure environment variables
-   Create a .env file in the root directory:
-   PORT=3001
-NODE_ENV=development
+   -Create a .env file in the root directory:
+   -PORT=3001
+   -NODE_ENV=development
 
 DB_HOST=localhost
 DB_PORT=5432
