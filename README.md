@@ -43,3 +43,26 @@ CREATE DATABASE railway_management;
 Then run the SQL schema:  
 psql -U postgres -d railway_management -f database/schema.sql  
 
+5.Run the Server
+  node server.js
+  
+6.API will be live at:
+ http://localhost:3001
+
+
+🧪 Sample API Routes  
+🔐 Auth Routes  
+POST /api/auth/register  
+POST /api/auth/login  
+
+🚆 Train Routes  
+POST /api/trains (Admin Only)  
+GET /api/trains/availability?source=Delhi&destination=Mumbai  
+PUT /api/trains/:train_id/seats (Admin Only)  
+
+🎟 Booking Routes (Authenticated)  
+POST /api/bookings  
+GET /api/bookings/:booking_id  
+GET /api/bookings  
+
+
